@@ -1,0 +1,147 @@
+/* 瀏覽器的滾動條隱藏 */
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+}
+/* 瀏覽器的滾動條隱藏 */
+
+#router{
+  /* height:100%;
+  background:#f4f7f9; */
+  overflow-x:hidden; 
+  overflow-y:scroll;
+}
+
+.contentTitle{
+  font-size: 26px;
+  color: #535353;
+  line-height: 42px;
+  text-align: left;
+}
+
+.content{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: justify
+}
+
+.contentBtnIcon{
+  padding: 6px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(52, 178, 117, 1);
+  border-radius: 30px;  
+}
+
+/* 返回到最上 */
+.goTop {
+  position: fixed;
+  bottom: -100px;
+  right: 5%;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease-in-out;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.goTop:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.3s ease-in-out;
+}
+.goTopAfter {
+  transition: 0.3s ease-in-out;
+  bottom: 100px;
+}
+
+/* 輪播 */
+.v-carousel__controls{
+  height: 24px;
+  background: rgba(52, 52, 52, 0.5)
+}
+.v-btn--icon.v-size--small{
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+}
+.theme--dark.v-btn--active:hover::before, .theme--dark.v-btn--active::before{
+  opacity: 0.7;
+}
+
+.v-application p{
+  margin-bottom: 0 !important;
+}
+
+.styleH2{
+  font-weight: 900;
+  color: #4880C8;
+}
+
+.styleH4{
+  font-weight: 900;
+  color: #000000;
+}
+
+
+.styleT2{
+  font-weight: 900;
+  color: #000000;
+}
+
+.styleT4{
+  font-weight: 600;
+  color: #737373;
+}
+
+.styleBtn{
+  height: 50px !important;
+  margin: 10px 0px;
+  padding: 30px !important;
+  font-size: 1.1rem !important;
+  border-radius: 200px;
+  color:#4880C8
+}
+.flexNone{
+  flex: none !important;
+}
+
+@media (min-width: 960px) {
+  .styleH2 {
+    font-size: 2.6rem;
+  }
+  .styleH4 {
+    font-size: 1.8rem;
+  }
+  .styleT2 {
+    font-size: 1.3rem;
+  }
+  .styleT4 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 959px) {
+  .styleH2 {
+    font-size: 2.1rem;
+  }
+  .styleH4 {
+    font-size: 1.5rem;
+  }
+  .styleT2 {
+    font-size: 1rem;
+  }
+  .styleT4 {
+    font-size: 0.9rem;
+  }
+}
