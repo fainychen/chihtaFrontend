@@ -5,7 +5,7 @@
     <div id="router" class="pt-10" :style="viewStyle">
 
       <p class="styleH4">面對資訊系統的建置/優化</p>
-      <p class="styleH2">你是否也有這種疑問？</p>
+      <p class="styleH2">您是否也有這種疑問？</p>
 
       <v-row justify="center" class="ma-1 mt-8" style="padding:4% 5%;">
         <v-col class="col-11 col-md-5">
@@ -58,7 +58,7 @@
         <v-col class="col-11 col-md-5 pa-5" align-self="center" align="left">
           <v-row class="ma-0 pa-0">
             <p class="styleH4" style="color:#4880C8">智達軟體設計</p>
-            <p class="styleH4">・解決你的困擾</p>
+            <p class="styleH4">・解決您的困擾</p>
           </v-row>
           <v-row class="ma-0 pa-0">
             <p class="styleT4 pt-2" style="color:#737373">本公司成立於2021年，以開啟著的圓形開關鍵，象徵本公司為客戶提供之軟體設計服務及視覺設計服務 Always ON 的決心</p>

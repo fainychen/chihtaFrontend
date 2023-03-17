@@ -37,7 +37,7 @@
             </div>
             <div class="pa-6 text-left">
               <p class="styleT2 text-center">行動裝置/APP</p>
-              <p class="styleT4 py-2">同步進行 iOS 與 Android雙平台開發，資訊架構明確造就良好操作流程，亦可整合 Firebase 行動推播及各項源生功能</p>
+              <p class="styleT4 py-2">同步進行 iOS 與 Android雙平台開發，資訊架構明確造就良好操作流程，亦可整合 Firebase 行動推播及各項原生功能</p>
             </div>
           </div>
         </v-col>
