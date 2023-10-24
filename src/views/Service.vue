@@ -7,7 +7,7 @@
     
     <div id="router" class="pt-10" :style="viewStyle">
 
-      <v-row justify="center" style="margin: 1% 8%">
+      <v-row class="justifyCenter" style="margin: 1% 8%">
         <v-col class="text-left pr-6 col-11 col-md-5" align-self="center">
           <p class="styleH4">資訊系統的建置/優化</p>
           <p class="styleH2">提供專業系統引導與規劃</p>
@@ -29,10 +29,10 @@
         <p class="styleH2">服務項目多元・一條龍服務</p>
       </div>
 
-      <v-row justify="space-around" style="margin: 0% 12% 6% 12%">
+      <v-row style="justify-content:space-around; margin: 0% 12% 6% 12%">
         <v-col class="mx-0 pa-0 col-11 col-sm-6 col-md-3" style="margin-top:80px">
           <div style="margin:12px; background:#FFF; box-shadow: 3px 5px 9px -1px #00000014">
-            <div class="pa-0 ma-2" justify="center" style="height:60px">
+            <div class="pa-0 ma-2 justifyCenter" style="height:60px">
               <v-img class="mx-auto" :src="images.serve_01" width=120 alt="serve_01" style="top:-60px"></v-img>
             </div>
             <div class="pa-6 text-left">
@@ -43,7 +43,7 @@
         </v-col>
         <v-col class="mx-0 pa-0 col-11 col-sm-6 col-md-3" style="margin-top:80px">
           <div style="margin:12px; background:#FFF; box-shadow: 3px 5px 9px -1px #00000014">
-            <div class="pa-0 ma-2" justify="center" style="height:60px">
+            <div class="pa-0 ma-2 justifyCenter" style="height:60px">
               <v-img class="mx-auto" :src="images.serve_01" width=120 alt="serve_01" style="top:-60px"></v-img>
             </div>
             <div class="pa-6 text-left">
@@ -54,7 +54,7 @@
         </v-col>
         <v-col class="mx-0 pa-0 col-11 col-sm-6 col-md-3" style="margin-top:80px">
           <div style="margin:12px; background:#FFF; box-shadow: 3px 5px 9px -1px #00000014">
-            <div class="pa-0 ma-2" justify="center" style="height:60px">
+            <div class="pa-0 ma-2 justifyCenter" style="height:60px">
               <v-img class="mx-auto" :src="images.serve_01" width=120 alt="serve_01" style="top:-60px"></v-img>
             </div>
             <div class="pa-6 text-left">
@@ -65,7 +65,7 @@
         </v-col>
         <v-col class="mx-0 pa-0 col-11 col-sm-6 col-md-3" style="margin-top:80px">
           <div style="margin:12px; background:#FFF; box-shadow: 3px 5px 9px -1px #00000014">
-            <div class="pa-0 ma-2" justify="center" style="height:60px">
+            <div class="pa-0 ma-2 justifyCenter" style="height:60px">
               <v-img class="mx-auto" :src="images.serve_01" width=120 alt="serve_01" style="top:-60px"></v-img>
             </div>
             <div class="pa-6 text-left">
@@ -77,7 +77,7 @@
       </v-row>
 
       <div v-if="innerWidth >= 960" style="margin:0% 12.5% 5% 12.5%; padding:0% 5%; border-radius: 20px; background:#FFF">
-        <v-row class="ma-0" justify="center">
+        <v-row class="ma-0 justifyCenter">
           <div style="width:25%">
             <v-img :src="images.process_header" alt="process_header"></v-img>
           </div>
@@ -88,7 +88,7 @@
       </div>
 
       <div v-if="innerWidth < 960 && innerWidth >= 450" style="margin:0% 12.5% 5% 12.5%; padding:0% 5%; border-radius: 20px; background:#FFF">
-        <v-row class="ma-0" justify="center">
+        <v-row class="ma-0 justifyCenter">
           <div style="width:60%">
             <v-img :src="images.process_header" alt="process_header"></v-img>
           </div>
@@ -102,7 +102,7 @@
       </div>
 
       <div v-if="innerWidth < 450" style="margin:0% 12.5% 5% 12.5%; padding:0% 5%; border-radius: 20px; background:#FFF">
-        <v-row class="ma-0" justify="center">
+        <v-row class="ma-0 justifyCenter">
           <div style="width:75%">
             <v-img :src="images.process_header" alt="process_header"></v-img>
           </div>
@@ -118,16 +118,16 @@
         </v-row>
       </div>
 
-      <v-row justify="center" class="ma-1 my-8 flexNone">
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+      <v-row class="ma-1 my-8 flexNone justifyCenter">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-email</v-icon>
           <p>chihta.software@gmail.com</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-briefcase-search</v-icon>
           <p>統一編號 83210973</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-map-marker-radius</v-icon>
           <p>新北市鶯歌區尖山路101巷4弄2號</p>
         </v-row>

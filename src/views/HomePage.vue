@@ -7,7 +7,7 @@
       <p class="styleH4">面對資訊系統的建置/優化</p>
       <p class="styleH2">您是否也有這種疑問？</p>
 
-      <v-row justify="center" class="ma-1 mt-8" style="padding:4% 5%;">
+      <v-row class="ma-1 mt-8 justifyCenter" style="padding:4% 5%;">
         <v-col class="col-11 col-md-5">
           <v-img :src="images.action_01" alt="action_01"></v-img>
         </v-col>
@@ -51,7 +51,7 @@
         </v-col>
       </v-row>
       
-      <v-row justify="center" style="margin: 1% 0% 5% 0%; padding:4% 5%; background:#FFF">
+      <v-row class="justifyCenter" style="margin: 1% 0% 5% 0%; padding:4% 5%; background:#FFF">
         <v-col class="col-11 col-md-3 pa-5" align="center">
           <v-img :src="images.logo_chihta" width=180 alt="logo_chihta"></v-img>
         </v-col>
@@ -71,9 +71,9 @@
         <p class="styleH2">三大領域・完整服務</p>
       </div>
 
-      <v-row justify="space-around" style="margin: 1% 12% 0% 12%">
+      <v-row style="justify-content:space-around; margin: 1% 12% 0% 12%">
         <v-col class="ma-2 pa-0 col-11 col-md-3" style="background:#FFF; box-shadow: 3px 5px 9px -1px #00000014;">
-          <div class="pt-6 pb-3" justify="center" style="border-bottom: 1px solid #737373">
+          <div class="pt-6 pb-3 justifyCenter" style="border-bottom: 1px solid #737373">
             <v-img class="mx-auto" :src="images.service_01" width=260 alt="logo_chihta"></v-img>
           </div>
           <div class="pa-6 text-left">
@@ -82,7 +82,7 @@
           </div>
         </v-col>
         <v-col class="ma-2 pa-0 col-11 col-md-3" style="background:#FFF; box-shadow: 3px 5px 9px -1px #00000014;">
-          <div class="pt-6 pb-3" justify="center" style="border-bottom: 1px solid #737373">
+          <div class="pt-6 pb-3 justifyCenter" style="border-bottom: 1px solid #737373">
             <v-img class="mx-auto" :src="images.service_02" width=260 alt="logo_chihta"></v-img>
           </div>
           <div class="pa-6 text-left">
@@ -91,7 +91,7 @@
           </div>
         </v-col>
         <v-col class="ma-2 pa-0 col-11 col-md-3" style="background:#FFF; box-shadow: 3px 5px 9px -1px #00000014;">
-          <div class="pt-6 pb-3" justify="center" style="border-bottom: 1px solid #737373">
+          <div class="pt-6 pb-3 justifyCenter" style="border-bottom: 1px solid #737373">
             <v-img class="mx-auto" :src="images.service_03" width=260 alt="logo_chihta"></v-img>
           </div>
           <div class="pa-6 text-left">
@@ -101,7 +101,7 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" style="margin: 4% 8% 0% 8%">
+      <v-row class="justifyCenter" style="margin: 4% 8% 0% 8%">
         <v-col class="text-left pr-6 col-12 col-md-6" align-self="center">
           <p class="styleH4">解決您對於專案執行流程的各項疑惑</p>
           <p class="styleH2">專業客製化軟體開發團隊</p>
@@ -120,16 +120,16 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" class="ma-1 my-8 flexNone">
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+      <v-row class="ma-1 my-8 flexNone justifyCenter">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-email</v-icon>
           <p>chihta.software@gmail.com</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-briefcase-search</v-icon>
           <p>統一編號 83210973</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-map-marker-radius</v-icon>
           <p>新北市鶯歌區尖山路101巷4弄2號</p>
         </v-row>

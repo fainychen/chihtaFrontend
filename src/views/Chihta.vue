@@ -7,7 +7,7 @@
     
     <div id="router" class="pt-10" :style="viewStyle">
 
-      <v-row justify="center" style="margin: 1% 8%">
+      <v-row class="justifyCenter" style="margin: 1% 8%">
         <v-col class="text-left pr-6 col-11 col-md-5" align-self="center">
           <p class="styleH4 mb-3">網站超連結</p>
           <p class="styleT2" style="color:#737373">中華企業資源規劃學會</p>

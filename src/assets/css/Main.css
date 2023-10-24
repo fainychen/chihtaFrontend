@@ -134,6 +134,14 @@ body {
   flex: none !important;
 }
 
+.justifyCenter{
+  justify-content: center !important;
+}
+
+.justifyLeft{
+  justify-content: left !important;
+}
+
 @media (min-width: 960px) {
   .styleH2 {
     font-size: 2.6rem;

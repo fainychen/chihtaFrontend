@@ -1,6 +1,6 @@
 <template>
   <div style="background:#F8FAFC">
-    <v-row style="margin: 30px 10% 10px 10%" align="center" justify="center">
+    <v-row class="justifyCenter" style="margin: 30px 10% 10px 10%" align="center">
       <div align="center" @click="redirectPath('/homePage')">
         <v-img :src="images.logo" width=240 alt="智達軟體設計LOGO"></v-img>
       </div>

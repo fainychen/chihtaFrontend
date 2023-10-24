@@ -7,7 +7,7 @@
     
     <div id="router" class="pt-10" :style="viewStyle">
 
-      <v-row justify="center" style="margin: 1% 8%">
+      <v-row class="justifyCenter" style="margin: 1% 8%">
         <v-col class="text-left pr-6 col-11 col-md-5" align-self="center">
           <p class="styleH4">資訊系統的建置/優化</p>
           <p class="styleH2">提供專業系統引導與規劃</p>
@@ -24,8 +24,8 @@
         </v-col>
       </v-row>
       
-      <v-row style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+      <v-row class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_1" alt="mockup_1"></v-img>
         </v-col>
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
@@ -34,18 +34,18 @@
         </v-col>
       </v-row>
       
-      <v-row v-if="innerWidth >= 960" style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
+      <v-row v-if="innerWidth >= 960" class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
           <p class="styleH4">資訊管理系統</p>
           <p class="styleT4 pt-4" style="line-height:28px">本專案重新梳理/優化操作流程，同時追加特色功能以改善使用者多系統切換的操作痛點。五大系統分別為：考試報名系統、管理後台、題庫系統、監考系統及考試系統</p>
         </v-col>
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_2" alt="mockup_2"></v-img>
         </v-col>
       </v-row>
       
-      <v-row v-if="innerWidth < 960" style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+      <v-row v-if="innerWidth < 960" class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_2" alt="mockup_2"></v-img>
         </v-col>
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
@@ -54,8 +54,8 @@
         </v-col>
       </v-row>
       
-      <v-row style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+      <v-row class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_3" alt="mockup_3"></v-img>
         </v-col>
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
@@ -64,18 +64,18 @@
         </v-col>
       </v-row>
       
-      <v-row v-if="innerWidth >= 960" style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
+      <v-row v-if="innerWidth >= 960" class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
           <p class="styleH4">設計專項團隊</p>
           <p class="styleT4 pt-4" style="line-height:28px">系統開發以 Wireframe 進行初期討論，最終提供完整 UI介面設計，視需求製作上架圖文、系統推廣短片、海報、周邊商品等</p>
         </v-col>
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_4" alt="mockup_4"></v-img>
         </v-col>
       </v-row>
       
-      <v-row v-if="innerWidth < 960" style="margin:2% 8%; padding:0%; background:#FFF" justify="center">
-        <v-col class="ma-0 pa-5 col-12 col-md-6" justify="center">
+      <v-row v-if="innerWidth < 960" class="justifyCenter" style="margin:2% 8%; padding:0%; background:#FFF">
+        <v-col class="ma-0 pa-5 col-12 col-md-6 justifyCenter">
           <v-img :src="images.mockup_4" alt="mockup_4"></v-img>
         </v-col>
         <v-col class="ma-0 pa-5 col-12 col-md-5 text-left" align-self="center">
@@ -84,16 +84,16 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" class="ma-1 my-8 flexNone">
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+      <v-row class="ma-1 my-8 flexNone justifyCenter">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-email</v-icon>
           <p>chihta.software@gmail.com</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft">
           <v-icon class="mr-2" color="#4880C8">mdi-briefcase-search</v-icon>
           <p>統一編號 83210973</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left" @click="$refs.LoginPage.open()">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto justifyLeft" @click="$refs.LoginPage.open()">
           <v-icon class="mr-2" color="#4880C8">mdi-map-marker-radius</v-icon>
           <p>新北市鶯歌區尖山路101巷4弄2號</p>
         </v-row>
