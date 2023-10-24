@@ -6,6 +6,7 @@ import Service from '../views/Service.vue'
 import CaseStudy from '../views/CaseStudy.vue'
 import Location from '../views/Location.vue'
 import ContactUs from '../views/ContactUs.vue'
+import Chihta from '../views/Chihta.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
         path: '/contactUs',
         name: 'ContactUs',
         component: ContactUs
+      },
+      {
+        path: '/chihta',
+        name: 'Chihta',
+        component: Chihta
       },
     ]
   },

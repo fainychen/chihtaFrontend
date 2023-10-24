@@ -93,19 +93,21 @@
           <v-icon class="mr-2" color="#4880C8">mdi-briefcase-search</v-icon>
           <p>統一編號 83210973</p>
         </v-row>
-        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left">
+        <v-row class="ma-0 mx-3 pa-1 col-10 col-md-auto" justify="left" @click="$refs.LoginPage.open()">
           <v-icon class="mr-2" color="#4880C8">mdi-map-marker-radius</v-icon>
           <p>新北市鶯歌區尖山路101巷4弄2號</p>
         </v-row>
       </v-row>
     </div>
+    <LoginPage ref="LoginPage" :onSave="onLoginPage"/>
   </div>
 </template>
 
 <script>
+import LoginPage from '@/dialogs/LoginPage'
 export default {
   name: 'CaseStudy',
-  props: {},
+  components: {LoginPage},
   data:() => ({
     scrollNum: 0, //滾動距離
     isTop: false, //是否顯示回到頂部按鈕
@@ -137,6 +139,7 @@ export default {
         this.isTop = false;
       }
     });
+    sessionStorage.setItem('login', 'false')
   },
   methods:{
     goTop() {
@@ -148,6 +151,10 @@ export default {
     calculateWindows(){
       this.innerWidth = window.innerWidth
       this.viewStyle = {height: (window.innerHeight-((window.innerWidth > 959) ? 100 : 121)) + 'px'}
+    },
+    onLoginPage(){
+      sessionStorage.setItem('login', 'true')
+      this.redirectPath('/chihta')
     },
   }
 }

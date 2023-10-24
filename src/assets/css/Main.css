@@ -66,6 +66,16 @@ body {
   bottom: 100px;
 }
 
+.v-dialog{
+  border-radius: 14px !important;
+}
+
+.close-dialog-btn{
+	position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
 /* 輪播 */
 .v-carousel__controls{
   height: 24px;
@@ -113,6 +123,13 @@ body {
   border-radius: 200px;
   color:#4880C8
 }
+
+.linkBtn{
+  margin: 10px 4px !important;
+  padding: 15px 20px !important;
+  color:#4880C8 !important;
+}
+
 .flexNone{
   flex: none !important;
 }
